@@ -1,0 +1,108 @@
+/* Add a black background color to the top navigation */
+.topnav {
+    overflow: hidden;
+	background-color: #001e62;
+	border-bottom: 2px solid #001e62;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 13px 10px 8px 10px;
+    text-decoration: none;
+    font-size: 16px;
+	border-bottom: 2px solid #001e62;
+	
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    color: #ffffff;
+	border-bottom: 2px solid #7f8eb0;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    color: #ffffff;
+	border-bottom: 2px solid none;
+}
+
+/* Add a black background color to the top navigation */
+.bottomnav {
+    overflow: hidden;
+	border-bottom: 2px solid #d9e0e4;
+}
+
+/* Style the links inside the navigation bar */
+.bottomnav a {
+    float: left;
+    color: #ffffff;
+	background-color: #001e62;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+    font-size: 13px;
+	border-bottom: 2px solid none;
+}
+
+/* Change the color of links on hover */
+.bottomnav a:hover {
+    border-bottom: 2px solid #7f8eb0;
+	
+    color: #ffffff;
+}
+
+/* Add a color to the active/current link */
+.bottomnav a.active {
+	border-bottom: 2px solid none;
+    color: white;
+}
+
+/* navigation manipulation*/
+
+.ic-Layout-contentMain {
+    padding-top: 0px;
+}
+
+.show-content.user_content.clearfix.enhanced {
+	padding-top: 0px;
+	overflow: hidden;
+}
+
+.ic-app-nav-toggle-and-crumbs.no-print {
+	
+	border-bottom-width: 0px;
+}
+
+
+
+.wrap {
+	width: 1900px;
+	height: 2350px;
+	padding: 0;
+	overflow: hidden;
+}
+
+
+.frame {
+	width: 1500px;
+	height: 3600px;
+	border: 0px solid black;
+	overflow:hidden;
+}
+
+.frame {
+	-ms-zoom: 0.70;
+	-moz-transform: scale(0.70);
+	-moz-transform-origin: 0 0;
+	-o-transform: scale(0.70);
+	-o-transform-origin: 0 0;
+	-webkit-transform: scale(0.70);
+	-webkit-transform-origin: 0 0;
+}
+
+.body {
+	overflow: hidden;
+}
